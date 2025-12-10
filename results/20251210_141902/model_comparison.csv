@@ -1,5 +1,0 @@
-,mae,rmse,maape,me
-XGBoost,9.27,28.6,9.68,0.69
-CatBoost,10.86,19.94,20.25,-0.49
-RandomForest,12.67,26.9,21.86,-0.22
-LightGBM,21.2,40.66,27.94,-0.43

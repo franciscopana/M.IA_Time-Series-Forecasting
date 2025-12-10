@@ -1,0 +1,22 @@
+1. EDA
+
+2. Training setup
+- load weekly time series
+- feature engineering
+- divide into training and test sets
+- define walk forward training function
+
+2. Model comparison
+- models: XGboost, Catboost, LightGBM and RandomForest
+- run experiments to collect performance metrics
+- compare performance metrics across all experiments
+
+3. Hyperparameter tuning (this part is not supposed to run from scratch)
+- select the best performing model: random forest
+- define set of parameters to test
+- pick the best configuration
+- store its predictions
+
+4. Result analysis
+- load predictions of the best model
+- explore its performance metrics and plots
