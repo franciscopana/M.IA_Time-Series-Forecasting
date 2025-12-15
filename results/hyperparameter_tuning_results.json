@@ -1,0 +1,310 @@
+{
+  "best_value": 0.4890852088066547,
+  "best_params": {
+    "classifier": "RandomForest",
+    "n_estimators": 211,
+    "max_depth": 13,
+    "min_samples_leaf": 2
+  },
+  "trials": [
+    {
+      "number": 0,
+      "value": 0.5655836574298955,
+      "params": {
+        "classifier": "ElasticNet",
+        "alpha": 9.89530553404531,
+        "l1_ratio": 0.6129027627670829
+      }
+    },
+    {
+      "number": 1,
+      "value": 0.5925290781012617,
+      "params": {
+        "classifier": "LightGBM",
+        "n_estimators": 57,
+        "max_depth": 8,
+        "learning_rate": 0.2646671717796326,
+        "num_leaves": 50
+      }
+    },
+    {
+      "number": 2,
+      "value": 0.5557937971847668,
+      "params": {
+        "classifier": "ElasticNet",
+        "alpha": 0.015823097074285,
+        "l1_ratio": 0.14272719302254877
+      }
+    },
+    {
+      "number": 3,
+      "value": 0.5906158977752741,
+      "params": {
+        "classifier": "LightGBM",
+        "n_estimators": 308,
+        "max_depth": 7,
+        "learning_rate": 0.1005207843599734,
+        "num_leaves": 53
+      }
+    },
+    {
+      "number": 4,
+      "value": 0.5653641432194617,
+      "params": {
+        "classifier": "ElasticNet",
+        "alpha": 6.152529781805635,
+        "l1_ratio": 0.7969864411715614
+      }
+    },
+    {
+      "number": 5,
+      "value": 0.5653530024399489,
+      "params": {
+        "classifier": "ElasticNet",
+        "alpha": 4.345492271404487,
+        "l1_ratio": 0.7106951543125392
+      }
+    },
+    {
+      "number": 6,
+      "value": 0.553831407598334,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 181,
+        "max_depth": 7,
+        "min_samples_leaf": 4
+      }
+    },
+    {
+      "number": 7,
+      "value": 0.5945345807872817,
+      "params": {
+        "classifier": "LightGBM",
+        "n_estimators": 420,
+        "max_depth": 7,
+        "learning_rate": 0.022553122984890765,
+        "num_leaves": 22
+      }
+    },
+    {
+      "number": 8,
+      "value": 0.5403725801096234,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 138,
+        "max_depth": 8,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "number": 9,
+      "value": 0.5603522278810865,
+      "params": {
+        "classifier": "XGBoost",
+        "n_estimators": 241,
+        "max_depth": 5,
+        "learning_rate": 0.07444334273785616
+      }
+    },
+    {
+      "number": 10,
+      "value": 0.5538171588892702,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 71,
+        "max_depth": 13,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "number": 11,
+      "value": 0.5563423804444962,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 62,
+        "max_depth": 14,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "number": 12,
+      "value": 0.5454620126568062,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 121,
+        "max_depth": 13,
+        "min_samples_leaf": 5
+      }
+    },
+    {
+      "number": 13,
+      "value": 0.5025140073504161,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 131,
+        "max_depth": 11,
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "number": 14,
+      "value": 0.5022754639058088,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 142,
+        "max_depth": 11,
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "number": 15,
+      "value": 0.5698024293759302,
+      "params": {
+        "classifier": "XGBoost",
+        "n_estimators": 216,
+        "max_depth": 2,
+        "learning_rate": 0.24465457217265443
+      }
+    },
+    {
+      "number": 16,
+      "value": 0.5025262968094169,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 120,
+        "max_depth": 11,
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "number": 17,
+      "value": 0.5016968172839898,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 157,
+        "max_depth": 11,
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "number": 18,
+      "value": 0.4909862331852207,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 168,
+        "max_depth": 11,
+        "min_samples_leaf": 2
+      }
+    },
+    {
+      "number": 19,
+      "value": 0.5718478884401215,
+      "params": {
+        "classifier": "XGBoost",
+        "n_estimators": 313,
+        "max_depth": 2,
+        "learning_rate": 0.17700591315046
+      }
+    },
+    {
+      "number": 20,
+      "value": 0.4935686153533002,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 181,
+        "max_depth": 15,
+        "min_samples_leaf": 2
+      }
+    },
+    {
+      "number": 21,
+      "value": 0.4934612801474101,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 178,
+        "max_depth": 15,
+        "min_samples_leaf": 2
+      }
+    },
+    {
+      "number": 22,
+      "value": 0.49096714750374054,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 197,
+        "max_depth": 15,
+        "min_samples_leaf": 2
+      }
+    },
+    {
+      "number": 23,
+      "value": 0.5237955494433207,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 214,
+        "max_depth": 15,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "number": 24,
+      "value": 0.48938637720474537,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 205,
+        "max_depth": 13,
+        "min_samples_leaf": 2
+      }
+    },
+    {
+      "number": 25,
+      "value": 0.4890852088066547,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 211,
+        "max_depth": 13,
+        "min_samples_leaf": 2
+      }
+    },
+    {
+      "number": 26,
+      "value": 0.5253643406322889,
+      "params": {
+        "classifier": "RandomForest",
+        "n_estimators": 214,
+        "max_depth": 13,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "number": 27,
+      "value": 0.602004779061675,
+      "params": {
+        "classifier": "LightGBM",
+        "n_estimators": 280,
+        "max_depth": 9,
+        "learning_rate": 0.17551583256130066,
+        "num_leaves": 100
+      }
+    },
+    {
+      "number": 28,
+      "value": 0.6006120456353067,
+      "params": {
+        "classifier": "XGBoost",
+        "n_estimators": 367,
+        "max_depth": 4,
+        "learning_rate": 0.29031104844784783
+      }
+    },
+    {
+      "number": 29,
+      "value": 0.5536749430807417,
+      "params": {
+        "classifier": "ElasticNet",
+        "alpha": 0.04206070488256852,
+        "l1_ratio": 0.03997580968244624
+      }
+    }
+  ]
+}
