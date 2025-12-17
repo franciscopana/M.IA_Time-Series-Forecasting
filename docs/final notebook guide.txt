@@ -1,0 +1,29 @@
+EDA
+- [x] Raw data and features
+- [x] Data coverage in time
+- [x] Different resolutions: daily, weekly, monthly
+- [x] ACF and PACF
+- [x] Lag plots
+- [x] Conclude seasonal duration: 52
+- [x] Decomposition: trend, seasonal and residual
+- [x] Log and BoxCox transformations
+
+Modeling strategy
+- [x] What is the approach to the problem
+- [ ] Feature engineering / data preparation 
+- [ ] Divide into training and test sets
+- [ ] Walk forward function (training and forecasting strategies)
+- [ ] Which metrics will we use 
+ 
+Model selection & Hyperparameter tuning
+- [ ] models: XGboost, Catboost, LightGBM and RandomForest ?
+- [ ] run experiments to collect performance metrics
+- [ ] compare performance metrics across all experiments
+- [ ] select the best performing model: random forest
+- [ ] define set of parameters to test
+- [ ] pick the best configuration
+- [ ] store its predictions
+
+Result analysis
+- [ ] load predictions of the best model
+- [ ] explore its performance metrics and plots
